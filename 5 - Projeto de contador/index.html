@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Bootstrap Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Fim BootStrap-->
+
+    <!--Meu JavaScript-->
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+    <!--Meu Css-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+
+
+    <title>Contador</title>
+
+
+
+</head>
+
+
+<body>
+
+
+
+    <div class="container-fluid px-0">
+
+        <!--PAI-->
+        <div row class=" border justify-content-center d-flex flex-column align-items-center w-100" style="height: 600px;
+        background-image: url(imagem/textura_fundo.jpg); background-size: cover;">
+
+            <!--FILHO-->
+
+            <div id="main"
+                class=" d-flex flex-column shadow-lg p-3 mb-5  w-50 h-75 d-flex align-items-center  justify-content-center"
+                 style="background-image: url(imagem/textura_fundo_2.jpg);" ;>
+
+                <!--COUNTER-->
+                <div class="amarelo am">
+                    <p class="mt-3 p-2 w-100 display-4 h-25 text-center" style="font-weight: bold;"> Counter </p>
+                </div>
+
+                <!--CONTADOR-->
+                <div class="amarelo am">
+                    <p class="w-100  display-1 text-center" id="contador"
+                        style="font-weight: bold;color: rgb(253, 253, 253);"> </p>
+                </div>
+
+                <!--Baixar  valor-->
+                <div class="bt3 bt3x ">
+                    <button onclick="diminui()" type="button" class="btn btn-danger w-100 mb-1 mt-3" id="diminui">LOWER
+                        COUNT</button>
+                </div>
+
+                <!--Adicionar valor-->
+                <div class="bt3 bt3x ">
+                    <button onclick="aumenta()" type="button" class="btn btn-danger w-100 mb-1 mt-1" id="aumenta">ADD
+                        COUNT</button>
+                </div>
+
+                <!--Zerar contador-->
+                <div class="bt3 bt3x">
+                    <button onclick="zerar()" type="button" class="btn btn-danger w-100 mb-1 mt-1">ZERAR
+                        CONTADOR</button>
+                </div>
+
+
+
+            </div>
+            <!--MAIN FINAL-->
+
+
+        </div>
+        <!--ROW FINAL-->
+    </div>
+    
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

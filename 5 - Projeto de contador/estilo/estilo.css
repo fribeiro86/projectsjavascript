@@ -1,0 +1,46 @@
+    @media (max-width: 443px) {
+    
+        .amarelo p{
+    
+            font-size: 2.0rem;
+            
+        }
+    
+    
+    }
+    
+    @media (max-width: 400px) {
+        .bt3 button {
+    
+           
+            font-size: 10px;
+    
+        }
+    }
+    
+    @media (max-width: 280px ) {
+    
+         .bt3x button {
+    
+             font-size: 8px;
+         }
+    
+    }
+    
+    @media (max-width: 280px) {
+    
+        .am p {
+    
+            font-size: 1.5rem;
+        }
+    }
+    
+        #main {
+    
+            color: white;
+            border-radius: 20px;
+            border: 10px solid rgb(255, 255, 255);
+            
+        }
+    
+      

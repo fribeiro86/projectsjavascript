@@ -1,0 +1,17 @@
+.topo {
+    color:rgba(247, 239, 239, 0.43); 
+    font-size: 40px; 
+    top: 330px; 
+}
+
+#direita {
+
+    right: 160px;
+}
+
+p:hover {
+
+    color: rgb(179, 255, 2);
+    cursor: pointer;
+}
+
